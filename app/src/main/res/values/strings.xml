@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recipe Lovers Club</string>
+    <string name="fetch">Fetch</string>
+    <string name="action_settings">Settings</string>
+</resources>
