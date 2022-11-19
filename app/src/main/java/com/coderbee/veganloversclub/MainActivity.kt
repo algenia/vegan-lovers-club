@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonFetch?.setOnClickListener(View.OnClickListener {
             // Launch get request
-            fetch("https://raw.githubusercontent.com/coder-bee/vegan-lovers-club/Network_layer_I.Sheveleva/test.json")
+            fetch("https://raw.githubusercontent.com/algenia/vegan-lovers-club/master/support/data/test.json")
         })
 
         viewModel.idMeal.observe(this, Observer {
